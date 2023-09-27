@@ -38,12 +38,12 @@ export default function Home() {
             {/* <input type="button" value="Submit" className='bg-[#543f59] my-4 w-max px-5 py-2 rounded'/> */}
           </form>
           <div className="sm:w-1/2 w-full sw:mt-0 mt-3">
-            <p className='m-1'><b>Time : </b>{weather.time}</p>
-            <p className='m-1'><b>Temperature : </b>{weather.temperature}</p>
             <p className='m-1'><b>Is Day : </b>{weather.is_day}</p>
+            <p className='m-1'><b>Time : </b>{weather.time}</p>
+            <p className='m-1'><b>Temperature : </b>{weather.temperature} deg C</p>
             <p className='m-1'><b>Weather Code : </b>{weather.weathercode}</p>
             <p className='m-1'><b>Wind Direction : </b>{weather.winddirection}</p>
-            <p className='m-1'><b>Wind Speed : </b>{weather.windspeed}</p>
+            <p className='m-1'><b>Wind Speed : </b>{weather.windspeed} km/h</p>
           </div>
         </div>
       </main>
